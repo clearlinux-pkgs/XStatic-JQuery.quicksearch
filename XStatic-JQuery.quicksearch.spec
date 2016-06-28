@@ -4,7 +4,7 @@
 #
 Name     : XStatic-JQuery.quicksearch
 Version  : 2.0.3.1
-Release  : 12
+Release  : 13
 URL      : https://pypi.python.org/packages/source/X/XStatic-JQuery.quicksearch/XStatic-JQuery.quicksearch-2.0.3.1.tar.gz
 Source0  : https://pypi.python.org/packages/source/X/XStatic-JQuery.quicksearch/XStatic-JQuery.quicksearch-2.0.3.1.tar.gz
 Summary  : JQuery.quicksearch 2.0.3 (XStatic packaging standard)
