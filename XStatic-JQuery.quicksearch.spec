@@ -4,7 +4,7 @@
 #
 Name     : XStatic-JQuery.quicksearch
 Version  : 2.0.3.1
-Release  : 18
+Release  : 19
 URL      : http://pypi.debian.net/XStatic-JQuery.quicksearch/XStatic-JQuery.quicksearch-2.0.3.1.tar.gz
 Source0  : http://pypi.debian.net/XStatic-JQuery.quicksearch/XStatic-JQuery.quicksearch-2.0.3.1.tar.gz
 Summary  : JQuery.quicksearch 2.0.3 (XStatic packaging standard)
