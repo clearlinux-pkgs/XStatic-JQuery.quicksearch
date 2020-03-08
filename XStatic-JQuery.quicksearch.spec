@@ -4,7 +4,7 @@
 #
 Name     : XStatic-JQuery.quicksearch
 Version  : 2.0.3.1
-Release  : 23
+Release  : 24
 URL      : http://pypi.debian.net/XStatic-JQuery.quicksearch/XStatic-JQuery.quicksearch-2.0.3.1.tar.gz
 Source0  : http://pypi.debian.net/XStatic-JQuery.quicksearch/XStatic-JQuery.quicksearch-2.0.3.1.tar.gz
 Summary  : JQuery.quicksearch 2.0.3 (XStatic packaging standard)
@@ -15,19 +15,18 @@ Requires: XStatic-JQuery.quicksearch-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 
 %description
-XStatic-JQuery.quicksearch
 --------------
-
-JQuery.quicksearch JavaScript library packaged for setuptools (easy_install)
-/ pip.
-
-This package is intended to be used by **any** project that needs these files.
-
-It intentionally does **not** provide any extra code except some metadata
-**nor** has any extra requirements. You MAY use some minimal support code from
-the XStatic base package, if you like.
-
-You can find more info about the xstatic packaging way in the package `XStatic`.
+        
+        JQuery.quicksearch JavaScript library packaged for setuptools (easy_install)
+        / pip.
+        
+        This package is intended to be used by **any** project that needs these files.
+        
+        It intentionally does **not** provide any extra code except some metadata
+        **nor** has any extra requirements. You MAY use some minimal support code from
+        the XStatic base package, if you like.
+        
+        You can find more info about the xstatic packaging way in the package `XStatic`.
 
 %package python
 Summary: python components for the XStatic-JQuery.quicksearch package.
@@ -43,7 +42,7 @@ python components for the XStatic-JQuery.quicksearch package.
 Summary: python3 components for the XStatic-JQuery.quicksearch package.
 Group: Default
 Requires: python3-core
-Provides: pypi(XStatic-JQuery.quicksearch)
+Provides: pypi(xstatic_jquery.quicksearch)
 
 %description python3
 python3 components for the XStatic-JQuery.quicksearch package.
@@ -58,8 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582851147
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583695508
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
